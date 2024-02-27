@@ -19,7 +19,7 @@ public class HomeController {
     @GetMapping("/users")
     @ResponseBody
     public List<String> getAllUsers() {
-        return new ArrayList<>(List.of("Tanvert", "Ahammed", "Aminul", "Bari"));
+        return new ArrayList<>(List.of("Tanver", "Ahammed", "Aminul", "Bari"));
     }
 
 }
